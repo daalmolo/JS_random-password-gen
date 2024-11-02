@@ -1,3 +1,3 @@
-#JS random password generator web site
+# JS random password generator web site
 
 mini project
