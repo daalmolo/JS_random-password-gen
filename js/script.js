@@ -23,6 +23,11 @@ function generatePassword() {
   passwrdField.value = password;
 }
 
+function copyPassword() {
+  passwrdField.select();
+  document.execCommand("copy");
+}
+
 function onReload() {
   passwrdField.value = "";
 }
